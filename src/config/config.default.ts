@@ -6,4 +6,10 @@ export default {
   koa: {
     port: 7001,
   },
+  midwayLogger: {
+    default: {
+      maxSize: '100m',
+      maxFiles: '10d',
+    },
+  },
 } as MidwayConfig;
